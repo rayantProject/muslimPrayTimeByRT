@@ -4,7 +4,7 @@ export function PrayComponent(fadjr, shurooq, dhuhr, asr, magrib, isha, date) {
     // div element
     let card = document.createElement("div"), headerCard = document.createElement("div"), bodyCard = document.createElement("div"), ul = document.createElement("ul");
     // add bootstrap
-    card.classList.add("card");
+    card.classList.add("card", "my-2");
     headerCard.classList.add("card-header", "px-3", "mt-3");
     bodyCard.classList.add("card-body");
     ul.classList.add("list-group", "list-group-light", "list-group-small");

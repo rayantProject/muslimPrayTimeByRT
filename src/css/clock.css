@@ -1,6 +1,6 @@
 .clock {
   border-radius: 50%;
-  background: #fff url("/asset/clock/ios_clock.svg") no-repeat center;
+  background: #fff url("./ios_clock.svg") no-repeat center;
   background-size: 88%;
   height: 20em;
   padding-bottom: 31%;
@@ -101,19 +101,5 @@
 .seconds-container {
   -webkit-animation: rotate 60s infinite steps(60);
           animation: rotate 60s infinite steps(60);
-}
-
-.minutes-container {
-  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.4, 2.08, 0.55, 0.44);
-  transition: -webkit-transform 0.3s cubic-bezier(0.4, 2.08, 0.55, 0.44);
-  transition: transform 0.3s cubic-bezier(0.4, 2.08, 0.55, 0.44);
-  transition: transform 0.3s cubic-bezier(0.4, 2.08, 0.55, 0.44), -webkit-transform 0.3s cubic-bezier(0.4, 2.08, 0.55, 0.44);
-}
-
-.seconds-container {
-  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.4, 2.08, 0.55, 0.44);
-  transition: -webkit-transform 0.2s cubic-bezier(0.4, 2.08, 0.55, 0.44);
-  transition: transform 0.2s cubic-bezier(0.4, 2.08, 0.55, 0.44);
-  transition: transform 0.2s cubic-bezier(0.4, 2.08, 0.55, 0.44), -webkit-transform 0.2s cubic-bezier(0.4, 2.08, 0.55, 0.44);
 }
 /*# sourceMappingURL=clock.css.map */

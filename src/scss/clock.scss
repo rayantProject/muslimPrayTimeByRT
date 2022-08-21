@@ -1,6 +1,6 @@
 .clock {
     border-radius: 50%;
-    background: #fff url('/asset/clock/ios_clock.svg') no-repeat center;
+    background: #fff url('./ios_clock.svg') no-repeat center;
     background-size: 88%;
     height: 20em;
     padding-bottom: 31%;
@@ -83,9 +83,9 @@
     animation: rotate 60s infinite steps(60);
   }
 
-  .minutes-container {
-    transition: transform 0.3s cubic-bezier(.4,2.08,.55,.44);
-  }
-  .seconds-container {
-    transition: transform 0.2s cubic-bezier(.4,2.08,.55,.44);
-  }
+  // .minutes-container {
+  //   transition: transform 0.3s cubic-bezier(.4,2.08,.55,.44);
+  // }
+  // .seconds-container {
+  //   transition: transform 0.2s cubic-bezier(.4,2.08,.55,.44);
+  // }
