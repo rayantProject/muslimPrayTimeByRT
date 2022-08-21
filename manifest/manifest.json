@@ -1,8 +1,8 @@
 {
     "lang" : "fr",
     "dir" : "ltr",
-    "name" : "Voici une super PWA",
-    "short_name" : "maPWA",
+    "name" : "RTmuslimSALAT",
+    "short_name" : "rtms",
     "icons" :   [
       {
         "src" : "../asset/M.png",
@@ -12,7 +12,7 @@
     ],
     "theme_color" : "#1a1a1a",
     "background_color" : "#1a1a1a",
-    "start_url" : "/",
+    "start_url" : "../index.html",
     "display" : "standalone",
     "orientation" : "natural"
    }
