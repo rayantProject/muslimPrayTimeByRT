@@ -26,6 +26,8 @@ href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&d
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Finlandica:wght@400;700&family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap" rel="stylesheet">
+
+<link rel="manifest" href="manifest/manifest.json">
 <link rel="stylesheet" href="src/css/style.main.css" />
 <link rel="stylesheet" href="src/css/clock.css">
 </head>
@@ -40,7 +42,7 @@ href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&d
 <main class="">
   <div class=" py-5">
     <div class="card text-center mt-5 mx-auto">
-      <div class="card-header">Lyon, FR</div>
+      <div id="location" class="card-header">Lyon, FR</div>
       <div class="card-body">
         <div class="d-flex justify-content-center">
           <div>
@@ -61,14 +63,13 @@ href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&d
           </div>
         </div>
       </div>
-      <div class="card-footer text-muted">July, 12 friday</div>
+      <div id="textDateHorloge" class="card-footer text-muted">July, 12 friday</div>
     </div>
 
 
-    <div id="ulTest" class="container-fluid mt-3 mb-5">
-      <div class="card">
+    <div id="ultest" class="container-fluid mt-3 mb-5">
+      <!-- <div class="card">
         <div class="card-header px-3"><b>Prayer times in <span class="text-success">Lyon</span></b></div>
-        <div class="card-body">
         <ul id="test" class="list-group list-group-light list-group-small">
           <li class="list-group-item px-3 d-flex justify-content-between">
             <div>Fadjr</div>
@@ -96,8 +97,7 @@ href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&d
           </li>
           
         </ul>
-      </div>
-      </div>
+      </div> -->
     </div>
   </div>
   
@@ -122,9 +122,11 @@ href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&d
   </nav>
 </footer>
 
-<script type="text/javascript" src="src/boostrap_file/js/bootstrap.js" defer></script>
-<script type="text/javascript" src="js/mdb.min.js"></script>
 </body>
+<script type="text/javascript" src="src/boostrap_file/js/bootstrap.js"></script>
+<script type="text/javascript" src="js/mdb.min.js"></script>
 <!-- Custom scripts -->
 <script type="text/javascript" src="js/clock.js" ></script>
+<script type="module" src="js/component.js" ></script>
+<script type="module" src="js/SalatAPI.js" ></script>
 </html>
